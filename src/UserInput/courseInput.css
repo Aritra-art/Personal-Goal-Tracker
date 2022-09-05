@@ -1,0 +1,47 @@
+.form-control {
+  margin: 0.5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  display: block;
+  color: #8b005d;
+  font-size: 2rem;
+  margin: 1rem;
+  padding-top: 1rem;
+}
+
+.form-control input {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0.6rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+.form-control.invalid input {
+  border-color: red;
+  background-color: #ffd7d7;
+}
+
+.form-control.invalid label {
+  color: red;
+}
+
+.submit-btn {
+  margin: 2rem;
+  padding-bottom: 2rem;
+}
